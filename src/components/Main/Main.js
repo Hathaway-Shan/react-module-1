@@ -8,6 +8,7 @@ export default function Main() {
   return (
     <main style={{ backgroundImage: `url(${background})` }} className="App">
       {animals.map((animal) => (
+        //can use the spread operator here to get all the props of animals without writing them by hand
         <Animal key={animal.name} {...animal} />
       ))}
     </main>
