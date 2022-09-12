@@ -1,7 +1,3 @@
-import background from './background.png';
-import Animal from './components/Animal/Animal';
-import animals from './data';
-
 import './App.css';
 
 import Header from './components/Header/Header';
